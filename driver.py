@@ -44,6 +44,8 @@ def login(username, password):
     time.sleep(1)
 
     # Continue with your automation task
-
+    attendance_button = driver.find_element(By.CSS_SELECTOR, '.btn.btn-success')
+    attendance_button.click()
+    time.sleep(1)
     # Close the browser when done
     driver.quit()
