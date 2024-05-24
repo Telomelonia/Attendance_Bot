@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head><title>Auto Clicker</title></head>
+<head>
+  <title>Auto Clicker</title>
+</head>
 <body>
   <h1>Auto Clicker</h1>
-  <button id="toggleClicker">Toggle Clicker</button>
+  <label for="rowIndex">Row Index:</label>
+  <input type="number" id="rowIndex" min="0" />
+  <button id="startClicker">Start Clicker</button>
+  <button id="stopClicker">Stop Clicker</button>
   <script src="popup.js"></script>
 </body>
 </html>
