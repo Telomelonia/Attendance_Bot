@@ -7,4 +7,4 @@
 - [ ] location alter
 - [ ] use `kivy` for android app/ Use flutter
 - [ ] func to check the availability of attendance (keep taps on the attendance)
-- [ ] Incorporate `clicker.tsx`
+- [x] Incorporate `clicker.tsx`
